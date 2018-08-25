@@ -3,19 +3,16 @@
 /* TEAM */
 
 
-Your title: Your name.
+Kieren Andrews
+
+Site: kierenjandrews.com
+
+Twitter: @kierenjandrews
+
+Location: Melbourne, Victoria, Australia.
 
 
-Site: email, link to a contact form, etc.
 
-
-Twitter: your Twitter username.
-
-
-Location: City, Country.
-
-
-                 
                         [...]
 
 
@@ -23,7 +20,13 @@ Location: City, Country.
 /* THANKS */
 
 
-Name: name or url
+Name: Angus McMillian
+
+Site: nxtonic.github.io
+
+Twitter: @nxtonic
+
+Location: Melbourne, Victoria, Australia.
 
 
 
@@ -34,13 +37,4 @@ Name: name or url
 /* SITE */
 
 
-Last update: YYYY/MM/DD
-
-
-Standards: HTML5, CSS3,..
-
-
-Components: Modernizr, jQuery, etc.
-
-
-Software: Software used for the development
+Last update: 25th August 2018
