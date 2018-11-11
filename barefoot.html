@@ -8,6 +8,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="icon" href="./images/favicon.png" />
+
+	<style type="text/css">
+	.mobileHide { display: inline; }
+
+	/* Smartphone Portrait and Landscape */
+	@media only screen
+		and (min-device-width : 320px)
+		and (max-device-width : 480px){
+		 .mobileHide { display: none;}
+	}
+</style>
+
+<style type="text/css">
+	.mobileShow {display: none;}
+
+	/* Smartphone Portrait and Landscape */
+	@media only screen
+		and (min-device-width : 320px)
+		and (max-device-width : 480px){
+			.mobileShow {display: inline;}
+	}
+</style>
+
 </head>
 
 <body class="is-preload">
@@ -176,7 +199,17 @@
 										<br>
 										<h3>Ready to organise Barefoot Bowls for your friends, family or work group?</h3>
 										<p><b>Phone:</b> (03) 9729 5241</p>
-										<p>Submit an online request <a href="https://goo.gl/forms/CjvTLgnDBCwWgTLu2" target="_blank"> here.</a></p>
+										<p><b>Functions and Events Application</p>
+
+
+										<div class="mobileShow">
+											<p>Submit an online request <a href="https://docs.google.com/forms/d/e/1FAIpQLSer__aJ3CaTfYp1JPHd4k_bRb2yV9MyTYCrdB4OoLb9jBRPuA/viewform?usp=sf_link" target="_blank"> here.</a></p>
+										</div>
+
+										<div class="mobileHide">
+											<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer__aJ3CaTfYp1JPHd4k_bRb2yV9MyTYCrdB4OoLb9jBRPuA/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+										</div>
+
 									</div>
 								</div>
 							</div>
